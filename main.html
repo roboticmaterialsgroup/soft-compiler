@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Boolean Compiler</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<head>
+    <!-- Just to fit the device to any page size even if we open it on mobile-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 ">
+    <title> Soft Compiler </title> <!-- This if for the title when we open some website and we see in new tab -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+        #footer {
+            position: fixed;
+            padding: 10px 10px 23px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/
+            height: 8px;
+            background: grey;
+        }
+
+        label {
+            width: 500px;
+            height: 15px;
+        }
+    </style>
+
+</head>
+<body id="body" onload="main()">
+
+    <div class="w3-top">
+        <div class="w3-bar w3-crimson w3-wide w3-padding-small w3-card w3-center" , style="font-size: 20px">
+            <a class="w3-bar-item w3-button w3-centered tr th"><b>Soft Compiler</b> </a>
+            <!-- Float links to the right. Hide them on small screens -->
+
+        </div>
+    </div>
+
+
+
+    <div id="buttonDiv" class="buttonDiv">
+
+        <button type="button" class="tableButton" onclick="onClickDecreaseButton()">-</button>
+        <button type="button" class="tableButton" onclick="onClickIncreaseButton()">+</button>
+        <label for="logic family" style="color:White">   Logic Family:</label>
+        <select name="logic family" id="Logic family">
+            <option value="Device1">Soft bistable valve</option>
+            <option value="Device2">Device 2</option>
+            <option value="Device3">Device 3</option>
+            <option value="Device4">Device 4</option>
+        </select>
+    </div>
+    <div id="tableDiv" class="tableDiv"></div>
+    <button type="button" class="doneButton" onclick="onClickGenerateButton()">Generate</button>
+
+    <div style="text-align: center;">
+        <label style="color: white;  margin: 50px;
+          height: 70px;
+          padding: 20px;
+          margin-top: 50px;
+          text-align:center;
+          margin-left: auto;
+          margin-right: auto;  text-align: center;
+            position: relative;">
+            Optimised Boolean Expression
+        </label>
+
+        <input type="text" id="booleanExpression" name="booleanExpression" readonly size="80" margin-left: 20px><br><br>
+    </div>
+
+    <div id="graph" style="  text-align: center; position: relative ;width: auto;height: auto;padding: 75px 346px; border: solid 1px black;background-color:slategrey;background-position: inherit">
+    </div>
+    <!-- <canvas id = "canvas" style = "width:200px; height:200pz"> -->
+    <!-- <img src = "letters/A.png" style = "width:70px; height:50px"> -->
+    <!-- </canvas> -->
+    <!-- <div class="row">
+        <div class="column left">
+            <h1 class = "header">Variable Number<h1>
+            <input id="tableInput" type="text"> <br>
+            <button id="tableBtn" type="button" onclick="onClickTableBtn()"> Generate Table</button> <br>
+
+        </div>
+        <div class="column right"><p>hello1</p></div>
+    </div>
+        <div class = "instructions"><h1 class = "text-header">Instructions</h1></div> -->
+    <!--
+    <label>Boolean Expression</label><br>
+    <input type="text"> <br>
+    <button type="button"> Evaluate</button> <br>
+    <input id = "tableInput" type ="text"> <br>
+    <button id = "tableBtn" type="button" onclick="onClickTableBtn()"> Generate Table</button> <br> -->
+    <!-- Footer -->
+
+    <div id="footer" style="font-size: 15px">
+        ©2021 by Robotic Materials Group at Worcester Polytechnic Institute
+    </div>
+    <div id="result"></div>
+
+
+</body>
+
+</html>
