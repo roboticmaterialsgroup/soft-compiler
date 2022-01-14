@@ -117,14 +117,18 @@ function notGrapher() {
 }
 
 function letterGrapher(expr) {
+  var table = document.createElement("table");
+  table.style.float = "right";
+  var row = table.insertRow();
+  var cell = row.insertCell();
   var img = new Image();
   img.src = "letters/" + expr + ".png";
   // THIS ISN'T SPAGHETT CODE AT ALL
   // img.src = "letters/B.png";
   img.style.height = "100px";
   img.style.width = "100px";
-  img.style.float = "right";
-  return img;
+  cell.appendChild(img);
+  return table;
 }
 
 function andGrapher() {
