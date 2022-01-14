@@ -109,191 +109,39 @@ function vMerger(up, down) {
 }
 
 function notGrapher() {
-  var table = document.createElement("table");
-  table.style.float = "right";
-  var row = table.insertRow();
-  var cell = row.insertCell();
   var img = new Image();
-  img.src = "letters/Not.png";
+  img.src = "letters/NOT.png";
   img.style.height = "100px";
   img.style.width = "200px";
-  cell.appendChild(img);
   return table;
 }
 
 function letterGrapher(expr) {
-  var table = document.createElement("table");
-  table.style.float = "right";
-  var row = table.insertRow();
-  var cell = row.insertCell();
   var img = new Image();
   img.src = "letters/" + expr + ".png";
   // THIS ISN'T SPAGHETT CODE AT ALL
   // img.src = "letters/B.png";
   img.style.height = "100px";
   img.style.width = "100px";
-  cell.appendChild(img);
-  return table;
+  return img;
 }
 
 function andGrapher() {
-  var table = document.createElement("table");
-  table.style.float = "right";
-  var row = table.insertRow();
-  var cell = row.insertCell();
   var img = new Image();
-  img.src = "letters/And.png";
+  img.src = "letters/AND.png";
   img.style.height = "200px";
   img.style.width = "100px";
-  cell.appendChild(img);
   return table;
 }
 
 function OrGrapher() {
-  var table = document.createElement("table");
-  table.style.float = "right";
-  var row = table.insertRow();
-  var cell = row.insertCell();
   var img = new Image();
-  img.src = "letters/Or.png";
+  img.src = "letters/OR.png";
   img.style.height = "200px";
   img.style.width = "100px";
-  cell.appendChild(img);
   return table;
 }
 
-
-//   cell.rowSpan = span;
-//   var img = new Image();
-//   img.src = path;
-//   img.style.height = "112px";
-//   img.style.width = "150px";
-//   cell.appendChild(img);
-
-// GRAPHER
-
-// GRAPHER
-// function orSplitGrapher(expr) {
-//   orSplit = expr.split("|");
-//   for (var i = 0; i < orSplit.length; i++) {
-//     andSplitGrapher(orSplit[i].replace(")", "").replace("(", ""));
-//   }
-
-//   // orSplitGrapher(orSplit);
-// }
-
-// // function orSplitGrapher(orSplit) {
-// //   var graph = document.getElementById("graph");
-// //   var table = document.createElement("table");
-// //   var row = table.insertRow();
-// //   format1by1(row, "letters/A.png");
-// //   format1by1(row, "letters/A.png");
-
-// //   graph.appendChild(table);
-// // }
-
-// function andSplitGrapher(andString) {
-//   var graph = document.getElementById("graph");
-//   var table = document.createElement("table");
-//   table.style.borderCollapse = "collapse";
-
-//   andSplit = andString.split("&");
-//   for (var i = 0; i < andSplit.length; i++) {
-//     var row = table.insertRow();
-//     var cell = row.insertCell();
-//     if (i % 2 == 0) {
-//       cell.appendChild(notSplitGrapher(andSplit[i], "down"));
-//       // var cell = row.insertCell();
-//       // cell.rowSpan = 2;
-//       // cell.appendChild(formatGate(row, "letters/And.png"));
-//     } else {
-//       cell.appendChild(notSplitGrapher(andSplit[i], "up"));
-//     }
-//   }
-
-//   for (var i = 0; i < Math.floor(Math.sqrt(andSplit.length)); i++) {
-//     var rowSpan = 2 * i + 1;
-//     // ADD CONNECTIONS
-//     for (var j = 0; j < table.rows.length; j += 2 ** i) {
-//       if (j % 2 == 0) {
-//         // formatVLine(table.rows[j], rowSpan, "letters/Line.png");
-//         formatGate(table.rows[j], rowSpan + 1, "letters/And.png");
-//       } else {
-//         // formatVLine(table.rows[j], rowSpan, "letters/Line.png");
-//       }
-//     }
-//     // ADD AND GATES
-//     // for (var j = 0; j < table.rows.length; j += )
-
-//     // var secondStart = 1;
-//     // var cell = table.rows[0].insertCell();
-//     // cell.rowSpan = rowspan;
-//   }
-//   // for ()
-
-//   console.log(Math.floor(Math.sqrt(andSplit.length)));
-
-//   graph.appendChild(table);
-// }
-
-// function formatGate(row, span, path) {
-//   var cell = row.insertCell();
-//   cell.rowSpan = span;
-//   var img = new Image();
-//   img.src = path;
-//   img.style.height = "112px";
-//   img.style.width = "150px";
-//   cell.appendChild(img);
-// }
-
-// function notSplitGrapher(notString, dir) {
-//   var table = document.createElement("table");
-//   table.style.borderCollapse = "collapse";
-//   var row = table.insertRow();
-//   table.style.float = "right";
-
-//   format1by1(row, "letters/A.png");
-//   if (notString.includes("~")) {
-//     formatConnector(row, 1, "letters/Not.png");
-//   }
-
-//   // if (dir == "down") {
-//   //   formatConnector(row, "letters/Down.png");
-//   // } else if (dir == "up") {
-//   //   formatConnector(row, "letters/Up.png");
-//   // }
-//   return table;
-//   // graph.appendChild(table);
-// }
-
-// function formatConnector(row, span, path) {
-//   var cell = row.insertCell();
-//   cell.rowSpan = span;
-//   var img = new Image();
-//   img.src = path;
-//   img.style.height = (span * 100).toString() + "px";
-//   img.style.width = "150px";
-//   cell.appendChild(img);
-// }
-
-// function formatVLine(row, span, path) {
-//   var cell = row.insertCell();
-//   cell.rowSpan = span;
-//   var img = new Image();
-//   img.src = path;
-//   img.style.height = "50px";
-//   img.style.width = "10px";
-//   cell.appendChild(img);
-// }
-
-// function format1by1(row, path) {
-//   var cell = row.insertCell();
-//   var img = new Image();
-//   img.src = path;
-//   img.style.height = "50px";
-//   img.style.width = "80px";
-//   cell.appendChild(img);
-// }
 
 // GRAPHER
 
