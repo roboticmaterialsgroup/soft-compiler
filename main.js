@@ -131,7 +131,7 @@ function andGrapher() {
   img.src = "letters/AND.png";
   img.style.height = "200px";
   img.style.width = "100px";
-  return table;
+  return img;
 }
 
 function OrGrapher() {
