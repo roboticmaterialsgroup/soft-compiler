@@ -113,7 +113,7 @@ function notGrapher() {
   img.src = "letters/NOT.png";
   img.style.height = "100px";
   img.style.width = "200px";
-  return table;
+  return img;
 }
 
 function letterGrapher(expr) {
@@ -139,7 +139,7 @@ function OrGrapher() {
   img.src = "letters/OR.png";
   img.style.height = "200px";
   img.style.width = "100px";
-  return table;
+  return img;
 }
 
 
