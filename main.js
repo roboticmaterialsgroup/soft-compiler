@@ -123,6 +123,7 @@ function letterGrapher(expr) {
   // img.src = "letters/B.png";
   img.style.height = "100px";
   img.style.width = "100px";
+  img.style.float = "right";
   return img;
 }
 
