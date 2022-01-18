@@ -8,11 +8,12 @@ function main() {
 }
 
 async function applyBooleanSimplifier(aExpr) {
-  // aExpr = aExpr.replaceAll('not', '~').replaceAll('and', '&').replaceAll('or','|');
+  aExpr = aExpr.replaceAll('not', '~').replaceAll('and', '%26').replaceAll('or','|');
   link =
     "https://3az3yvvawe.execute-api.us-east-1.amazonaws.com/default/simplifyBoolean?expr=" +
     aExpr;
   console.log(aExpr);
+  console.log(link);
   var result = '';
   const response = await fetch(link, {
     mode: "cors",
@@ -22,7 +23,6 @@ async function applyBooleanSimplifier(aExpr) {
     console.log(data); 
     result = data;
   });
-  result = result;
   document.getElementById("booleanExpression").value= result;
   console.log(result);
   console.log("=========="+document.getElementById("booleanExpression").value);
@@ -171,7 +171,7 @@ function onClickGenerateButton() {
     var selection = table.rows[i].cells[col].childNodes[0];
     if (selection.style.backgroundColor.toString() == "rgb(187, 199, 164)") {
       if (strBuilder != "") {   
-        strBuilder += "|";
+        strBuilder += "or";
       }
       strBuilder += getBooleanExpr(table.rows[i], col);
     }
@@ -186,18 +186,18 @@ function getBooleanExpr(row, col) {
     var bool = row.cells[i].childNodes[0].textContent;
     if (bool == "1") {
       if (boolBuilder != "") {
-        boolBuilder += "&";
+        boolBuilder += "and";
       } else {
         boolBuilder += "(";
       }
       boolBuilder += ALPHABET.charAt(i);
     } else {
       if (boolBuilder != "") {
-        boolBuilder += "&";
+        boolBuilder += "and";
       } else {
         boolBuilder += "(";
       }
-      boolBuilder += "~" + ALPHABET.charAt(i);
+      boolBuilder += "not" + ALPHABET.charAt(i);
     }
   }
   if (boolBuilder != "") {
