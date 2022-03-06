@@ -13,7 +13,8 @@ Best Practices:
 1. The soft compiler can take in up to ___ inputs. We suggest that the used does not use more that 10 inputs.  
 2. When entering the desired logic into the truth table the user only needs to select 1 on the lines of the turth table. All lines with no user input are assumed to be zero. 
 3. The output schematic is organized in a hiearchal manner. The output from each logic device should be connected to the horizontally closest next logic devices. If there are multiple inputs the vertical placement of the logic device should be considered. If there are two inputs then the output from the top logic device will go into the top input of the next horizontally closets logic device. Below is an annotated example. 
-![image](https://user-images.githubusercontent.com/68814774/156939952-f1441539-1c67-4d9c-8f7e-8aeec5f0c334.png)
+
+![image](https://user-images.githubusercontent.com/68814774/156939979-d4bdefd8-f009-4d04-ab2b-e255c64246d3.png)
 
 4. When assembling the fludic circuit here are a few organizational suggestions for assembly:  
 	a. Look at how mnay times an input is repeated in the scheamitc. Create a splitter with that many outlets before starting assembly. 
