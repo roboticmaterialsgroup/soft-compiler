@@ -22,7 +22,7 @@ https://user-images.githubusercontent.com/68814774/156986141-ce81bba4-c95e-4291-
 2. Input J is intentionally removed to avoid confusion between I and J.
 
 ## Reading the schematic
-1. The output schematic is organized hierarchically. 
+1. The output schematic is organized in terms of block diagrams. 
 2. The output from each logic device is connected horizontally to the closest next logic devices. 
 3. If there are multiple inputs, the vertical placement of the logic device should be considered. 
 4. If there are two inputs then the output from the top logic device will go into the top input of the next horizontally closest logic device. 
