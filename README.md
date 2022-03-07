@@ -1,16 +1,16 @@
-# Tube-Balloon Logic for the Exploration of Fluidic Control Elements
+# The Soft Compiler
 
 ## Instruction Manual:
 
 1.	Download the “SoftCompiler” folder in your local drive.
 2.	Enable CORs for your system. 
 a.	Follow the instruction given in the below website for windows operating system: https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en
-3.	Make sure that CORs is enabled for the website. Once it’s done open the main.html in web browser. 
-4.	You can add the number of input device by clicking on “+” button and in similar way reduce them by clicking on “–” button.
-5.	Once required number of inputs are presented with possible combinations in the form of truth table, select a required output from given result. Click on 1 or 0 and the color will change. 
+3.	Make sure that CORs are enabled for the website. Once it’s done open the main.html in the web browser. 
+4.	You can add the number of input devices by clicking on the “+” button and in a similar way reducing them by clicking on the “–” button.
+5.	Once the required number of inputs are presented with possible combinations in the form of the truth table, select a required output from the given result. Click on 1 or 0 and the color will change. 
 6.	To generate the schematic from the desired logic, please select 1 on the output. If not selected, the default value of output is zero. 
-7.	Once the desired output from given input are selected then click generate. 
-8.	It will create an a sequence of logic along with the input and the output. This needs to be understood properly and accordingly used.
+7.	Once the desired output from the given input is selected then click generate. 
+8.	It will create a sequence of logic along with the input and the output. This needs to be understood properly and accordingly used.
 
 # Video
 
@@ -18,20 +18,21 @@ https://user-images.githubusercontent.com/68814774/156986141-ce81bba4-c95e-4291-
 
 ## Tips
 
-1. We recommend to use the soft compiler for max. 10 inputs. 
+1. We recommend using the soft compiler for max. 10 inputs. 
 2. Input J is intentionally removed to avoid confusion between I and J.
 
 ## Reading the schematic
-1. The output schematic is organized in a hiearchal manner. 
-2. The output from each logic device should be connected to the horizontally closest next logic devices. 
-3. If there are multiple inputs the vertical placement of the logic device should be considered. 
-4. If there are two inputs then the output from the top logic device will go into the top input of the next horizontally closets logic device. Below is an annotated example. 
+1. The output schematic is organized hierarchically. 
+2. The output from each logic device is connected horizontally to the closest next logic devices. 
+3. If there are multiple inputs, the vertical placement of the logic device should be considered. 
+4. If there are two inputs then the output from the top logic device will go into the top input of the next horizontally closest logic device. 
+5. Below is an annotated example. 
 
 	![image](https://user-images.githubusercontent.com/68814774/156939979-d4bdefd8-f009-4d04-ab2b-e255c64246d3.png)
 
-4. When assembling the fludic circuit here are a few organizational suggestions for assembly:  
- 	a. Look at how mnay times an input is repeated in the scheamitc. Create a splitter with that many outlets before starting assembly.  
- 	b. Pre configure all of soft logic devices to the correct gate and test before assembly.  
-	c. Count the number of logic gates and double it to estimate how many tubes you will need to connect the soft logic devices together. 
-	d. Diffrent lengths of tubes will be 	needed depending on the schematic. 
-	e. Diffrent number of tubes will be needed depending on the logic device.  
+4. When assembling the fluidic circuit here are a few organizational suggestions for assembly:  
+a.	Look at how many times input is repeated in the schematic. Create a splitter with that many outlets before starting the assembly.  
+b.	Pre-configure all of the soft logic devices to the correct gate and test before assembly.  
+c.	Count the number of logic gates and double it to estimate how many tubes you will need to connect the soft logic devices. 
+d.	Different lengths of tubes will be needed depending on the schematic. 
+e.	the Different number of tubes will be needed depending on the logic device.  
