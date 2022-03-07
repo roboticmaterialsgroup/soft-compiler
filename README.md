@@ -22,7 +22,10 @@ https://user-images.githubusercontent.com/68814774/156986141-ce81bba4-c95e-4291-
 2. Input J is intentionally removed to avoid confusion between I and J.
 
 ## Reading the schematic
-The output schematic is organized in a hiearchal manner. The output from each logic device should be connected to the horizontally closest next logic devices. If there are multiple inputs the vertical placement of the logic device should be considered. If there are two inputs then the output from the top logic device will go into the top input of the next horizontally closets logic device. Below is an annotated example. 
+1. The output schematic is organized in a hiearchal manner. 
+2. The output from each logic device should be connected to the horizontally closest next logic devices. 
+3. If there are multiple inputs the vertical placement of the logic device should be considered. 
+4. If there are two inputs then the output from the top logic device will go into the top input of the next horizontally closets logic device. Below is an annotated example. 
 
 ![image](https://user-images.githubusercontent.com/68814774/156939979-d4bdefd8-f009-4d04-ab2b-e255c64246d3.png)
 
