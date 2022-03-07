@@ -32,4 +32,6 @@ https://user-images.githubusercontent.com/68814774/156986141-ce81bba4-c95e-4291-
 4. When assembling the fludic circuit here are a few organizational suggestions for assembly:  
  	a. Look at how mnay times an input is repeated in the scheamitc. Create a splitter with that many outlets before starting assembly.  
  	b. Pre configure all of soft logic devices to the correct gate and test before assembly.  
-	c. Count the number of logic gates and double it to estimate how many tubes you will need to connect the soft logic devices together. Diffrent lengths of tubes will be 	needed depending on the schematic. Diffrent number of tubes will be needed depending on the logic device.  
+	c. Count the number of logic gates and double it to estimate how many tubes you will need to connect the soft logic devices together. 
+	d. Diffrent lengths of tubes will be 	needed depending on the schematic. 
+	e. Diffrent number of tubes will be needed depending on the logic device.  
