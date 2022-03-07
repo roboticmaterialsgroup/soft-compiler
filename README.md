@@ -12,11 +12,14 @@ a.	Follow the instruction given in the below website for windows operating syste
 7.	Once the desired output from given input are selected then click generate. 
 8.	It will create an a sequence of logic along with the input and the output. This needs to be understood properly and accordingly used.
 
+# Video
+
+https://user-images.githubusercontent.com/68814774/156986141-ce81bba4-c95e-4291-9a80-e0b4e75b79d7.mp4
+
 ## Tips
 
 1. We recommend to use the soft compiler for max. 10 inputs. 
 2. Input J is intentionally removed to avoid confusion between I and J.
-
 
 ## Reading the schematic
 The output schematic is organized in a hiearchal manner. The output from each logic device should be connected to the horizontally closest next logic devices. If there are multiple inputs the vertical placement of the logic device should be considered. If there are two inputs then the output from the top logic device will go into the top input of the next horizontally closets logic device. Below is an annotated example. 
