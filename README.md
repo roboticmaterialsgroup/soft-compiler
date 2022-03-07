@@ -33,6 +33,5 @@ https://user-images.githubusercontent.com/68814774/156986141-ce81bba4-c95e-4291-
 4. When assembling the fluidic circuit here are a few organizational suggestions for assembly:  
 a.	Look at how many times input is repeated in the schematic. Create a splitter with that many outlets before starting the assembly.  
 b.	Pre-configure all of the soft logic devices to the correct gate and test before assembly.  
-c.	Count the number of logic gates and double it to estimate how many tubes you will need to connect the soft logic devices. 
-d.	Different lengths of tubes will be needed depending on the schematic. 
-e.	the Different number of tubes will be needed depending on the logic device.  
+c.	Count the number of logic gates and 6 times it gives number of tubes for soft bistable valve. 
+d.	Different lengths of tubes will be needed depending on the schematic and logic devices. 
