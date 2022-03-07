@@ -27,7 +27,7 @@ https://user-images.githubusercontent.com/68814774/156986141-ce81bba4-c95e-4291-
 3. If there are multiple inputs the vertical placement of the logic device should be considered. 
 4. If there are two inputs then the output from the top logic device will go into the top input of the next horizontally closets logic device. Below is an annotated example. 
 
-![image](https://user-images.githubusercontent.com/68814774/156939979-d4bdefd8-f009-4d04-ab2b-e255c64246d3.png)
+	![image](https://user-images.githubusercontent.com/68814774/156939979-d4bdefd8-f009-4d04-ab2b-e255c64246d3.png)
 
 4. When assembling the fludic circuit here are a few organizational suggestions for assembly:  
  	a. Look at how mnay times an input is repeated in the scheamitc. Create a splitter with that many outlets before starting assembly.  
