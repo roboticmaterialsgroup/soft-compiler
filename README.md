@@ -24,9 +24,10 @@ https://user-images.githubusercontent.com/68814774/156986141-ce81bba4-c95e-4291-
 
 ## Reading the schematic
 1. The schematic is organized in terms of inputs, outputs and logic devices. 
-2. The inputs are located on the left side, and the output from each logic device is connected horizontally to the next closest logic devices. 
+2. The inputs are located on the left side and indicated by letters and the output from each logic device is connected horizontally to the next closest logic devices. 
 3. All soft bistable valves representations of the logic gates includes red arrows, where some are marked with “T” and “B”, denoting top and bottom chamber respectively.
-4. We highly recomment to read the information about configuring soft bistable valve as a logic gate from (https://github.com/roboticmaterialsgroup/soft-bistable-valve.) Below is an annotated example. 
+4. We highly recomment to read the information about configuring soft bistable valve as a logic gate from (https://github.com/roboticmaterialsgroup/soft-bistable-valve.) 
+5. If an input is repeated, user can choose to add splitter and connect to serveral logic gates. Below is an annotated example to understand the schematic. 
 
 	![github sample schematic v2small](https://user-images.githubusercontent.com/68814774/157142876-7cd6fb4a-3b73-46e0-a586-7b3366816c5b.png)
 
@@ -39,5 +40,5 @@ d.	Different lengths of tubes will be needed depending on the schematic and logi
 ## Background for customising the soft compiler tool
 
 1. The soft compiler tool offers customisation to include the novel logic devices to the family. 
-2. Create similar icons which can be configured as AND, OR, NOT,NAND or NOR gates and add them to 'Figures' folder. 
-3. When properly linked, the tool can generate the block diagram to with new devices.
+2. Create similar icons which can be configured as AND, OR, NOT, NAND or NOR gates and add them to 'Figures' folder. 
+3. When properly linked, the tool can generate the block diagram with new devices.
