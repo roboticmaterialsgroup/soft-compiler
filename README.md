@@ -27,7 +27,7 @@ https://user-images.githubusercontent.com/68814774/156986141-ce81bba4-c95e-4291-
 3. All soft bistable valves representations of the logic gates includes red arrows, where some are marked with “T” and “B”, denoting top and bottom chamber respectively.
 4. We highly recomment to read the information about configuring soft bistable valve as a logic gate from (https://github.com/roboticmaterialsgroup/soft-bistable-valve. Below is an annotated example. 
 
-	![github sample schematic v2](https://user-images.githubusercontent.com/68814774/157142643-16d9ef4b-5619-467f-a4d3-0416105e0a68.png)
+	![github sample schematic v2small](https://user-images.githubusercontent.com/68814774/157142876-7cd6fb4a-3b73-46e0-a586-7b3366816c5b.png)
 
 4. When assembling the fluidic circuit here are a few organizational suggestions for assembly:  
 a.	Look at how many times input is repeated in the schematic. Create a splitter with that many outlets before starting the assembly.  
