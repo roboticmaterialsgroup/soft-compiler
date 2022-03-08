@@ -25,7 +25,7 @@ https://user-images.githubusercontent.com/68814774/156986141-ce81bba4-c95e-4291-
 1. The schematic is organized in terms of inputs, outputs and logic devices. 
 2. The inputs are located on the left side, and the output from each logic device is connected horizontally to the next closest logic devices. 
 3. All soft bistable valves representations of the logic gates includes red arrows, where some are marked with “T” and “B”, denoting top and bottom chamber respectively.
-4. We highly recomment to read the information about configuring soft bistable valve as a logic gate from (https://github.com/roboticmaterialsgroup/soft-bistable-valve. Below is an annotated example. 
+4. We highly recomment to read the information about configuring soft bistable valve as a logic gate from (https://github.com/roboticmaterialsgroup/soft-bistable-valve.) Below is an annotated example. 
 
 	![github sample schematic v2small](https://user-images.githubusercontent.com/68814774/157142876-7cd6fb4a-3b73-46e0-a586-7b3366816c5b.png)
 
