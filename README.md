@@ -40,5 +40,5 @@ d.	Different lengths of tubes will be needed depending on the schematic and logi
 ## Background for customising the soft compiler tool
 
 1. The soft compiler tool offers customisation to include the novel logic devices to the family. 
-2. Create similar icons which can be configured as AND, OR, NOT, NAND or NOR gates and add them to 'Figures' folder. 
+2. Create similar icons which can be configured as AND, OR, NOT, NAND or NOR gates and add them to 'letters' folder. 
 3. When properly linked, the tool can generate the block diagram with new devices.
