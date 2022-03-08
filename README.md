@@ -2,7 +2,7 @@
 A soft compiler is a web-based tool that accepts a user-defined robot behavior as a truth table to generate a mathematically optimized circuit diagram that guides the assembly of a soft fluidic circuit. It is used for design of modular pneumatic circuits for soft robots.
 Detailed information of this tool is available here: https://arxiv.org/abs/2202.03846
 
-## Instruction Manual:
+## Instruction Manual
 
 1.	Download the “SoftCompiler” folder in your local drive.
 2.	Enable CORs for your system. 
@@ -43,4 +43,4 @@ https://user-images.githubusercontent.com/68814774/156986141-ce81bba4-c95e-4291-
 
 1. The soft compiler tool offers customization to include the novel logic devices to the family. 
 2. Create similar icons which can be configured as AND, OR, NOT, NAND, or NOR gates and add them to the 'letters' folder. 
-3. When properly linked, the tool can generate the block diagram with new devices.
+3. When the letters are properly linked, the soft compiler tool can generate the schematic with new/added devices.
