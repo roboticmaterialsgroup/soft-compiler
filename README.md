@@ -1,4 +1,5 @@
 # The Soft Compiler
+The soft compiler is a web-based tool that accepts a user-defined robot behavior as a truth table to generate a mathematically optimized circuit diagram that guides the assembly of a soft fluidic circuit.
 
 ## Instruction Manual:
 
