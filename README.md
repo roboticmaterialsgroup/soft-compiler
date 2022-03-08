@@ -22,7 +22,7 @@ https://user-images.githubusercontent.com/68814774/156986141-ce81bba4-c95e-4291-
 
 1. We recommend using the soft compiler for max. 10 inputs. 
 2. Input J is intentionally removed to avoid confusion between I and J.
-3. The tube lengths and diameter to conenct input and bistable valve will decide the flow rate and time required to get the output.  
+3. The tube lengths and diameter to connect inputs and logic devices will decide the flow rate and time required to get the output.  
 
 ## Reading the schematic
 1. The schematic is organized in terms of inputs, outputs, and logic devices. 
