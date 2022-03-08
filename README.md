@@ -1,5 +1,5 @@
 # The Soft Compiler
-The soft compiler is a web-based tool that accepts a user-defined robot behavior as a truth table to generate a mathematically optimized circuit diagram that guides the assembly of a soft fluidic circuit.
+A soft compiler is a web-based tool that accepts a user-defined robot behavior as a truth table to generate a mathematically optimized circuit diagram that guides the assembly of a soft fluidic circuit.
 
 ## Instruction Manual:
 
@@ -23,22 +23,22 @@ https://user-images.githubusercontent.com/68814774/156986141-ce81bba4-c95e-4291-
 2. Input J is intentionally removed to avoid confusion between I and J.
 
 ## Reading the schematic
-1. The schematic is organized in terms of inputs, outputs and logic devices. 
+1. The schematic is organized in terms of inputs, outputs, and logic devices. 
 2. The inputs are located on the left side and indicated by letters and the output from each logic device is connected horizontally to the next closest logic devices. 
-3. All soft bistable valves representations of the logic gates includes red arrows, where some are marked with “T” and “B”, denoting top and bottom chamber respectively.
-4. We highly recomment to read the information about configuring soft bistable valve as a logic gate from (https://github.com/roboticmaterialsgroup/soft-bistable-valve.) 
-5. If an input is repeated, user can choose to add splitter and connect to serveral logic gates. Below is an annotated example to understand the schematic. 
+3. All soft bistable valves representations of the logic gates include red arrows, where some are marked with “T” and “B”, denoting top and bottom chamber respectively.
+4. We highly recommend reading the information about configuring a soft bistable valve as a logic gate from (https://github.com/roboticmaterialsgroup/soft-bistable-valve.) 
+5. If an input is repeated, the user can choose to add a splitter and connect to several logic gates. Below is an annotated example to understand the schematic. 
 
 	![github sample schematic v2small](https://user-images.githubusercontent.com/68814774/157142876-7cd6fb4a-3b73-46e0-a586-7b3366816c5b.png)
 
-4. When assembling the fluidic circuit here are a few organizational suggestions for assembly:  
+4. When assembling the fluidic circuit, here are a few organizational suggestions for assembly:  
 	* Look at how many times input is repeated in the schematic. Create a splitter with that many outlets before starting the assembly.  
 	* Pre-configure all of the soft logic devices to the correct gate and test before assembly.  
-	* Count the number of logic gates and 6 times it gives number of tubes for soft bistable valve. 
+	* Count the number of logic gates and 6 times it gives a required number of tubes for a soft bistable valve. 
 	* Different lengths of tubes will be needed depending on the schematic and logic devices. 
 
-## Background for customising the soft compiler tool
+## Background for customizing the soft compiler tool
 
-1. The soft compiler tool offers customisation to include the novel logic devices to the family. 
-2. Create similar icons which can be configured as AND, OR, NOT, NAND or NOR gates and add them to 'letters' folder. 
+1. The soft compiler tool offers customization to include the novel logic devices to the family. 
+2. Create similar icons which can be configured as AND, OR, NOT, NAND, or NOR gates and add them to the 'letters' folder. 
 3. When properly linked, the tool can generate the block diagram with new devices.
