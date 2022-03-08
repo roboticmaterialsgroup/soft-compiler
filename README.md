@@ -23,12 +23,11 @@ https://user-images.githubusercontent.com/68814774/156986141-ce81bba4-c95e-4291-
 
 ## Reading the schematic
 1. The schematic is organized in terms of inputs, outputs and logic devices. 
-2. The inputs are located on the left side, and the output from each logic device is connected horizontally to the closest next logic devices. 
+2. The inputs are located on the left side, and the output from each logic device is connected horizontally to the next closest logic devices. 
 3. All soft bistable valves representations of the logic gates includes red arrows, where some are marked with “T” and “B”, denoting top and bottom chamber respectively.
-4. We highly recomment to read the information about configuring soft bistable valve as a logic gate from (https://github.com/roboticmaterialsgroup/soft-bistable-valve
-5. Below is an annotated example. 
+4. We highly recomment to read the information about configuring soft bistable valve as a logic gate from (https://github.com/roboticmaterialsgroup/soft-bistable-valve. Below is an annotated example. 
 
-	![image](https://user-images.githubusercontent.com/68814774/156939979-d4bdefd8-f009-4d04-ab2b-e255c64246d3.png)
+	![github sample schematic v2](https://user-images.githubusercontent.com/68814774/157142643-16d9ef4b-5619-467f-a4d3-0416105e0a68.png)
 
 4. When assembling the fluidic circuit here are a few organizational suggestions for assembly:  
 a.	Look at how many times input is repeated in the schematic. Create a splitter with that many outlets before starting the assembly.  
